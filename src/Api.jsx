@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const API_URI = 'http://localhost:7000/api'; // Assuming your base path is /api
+const API_URI = 'http://localhost:7000';
+// const API_URI = 'https://admin-backend-hi21.vercel.app/api';
 
 export const register = (data) => {
     return axios.post(`${API_URI}/auth/register`, data);
