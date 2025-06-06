@@ -79,7 +79,7 @@ const Home = () => {
     } catch (error) {
       console.log(error);
     }
-  }, []);
+  }, [user]);
 
   useEffect(() => {
     getData()

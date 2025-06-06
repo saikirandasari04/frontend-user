@@ -66,7 +66,7 @@ const Auth = () => {
     if(token) {
         navigate('/')
     }
-  },[])
+  },[navigate])
 
   return (
     <div className="container mt-5">
